@@ -1,0 +1,18 @@
+<mxfile host="app.diagrams.net" modified="2023-07-29T12:43:12.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wyzzvq_DWhOFLjH8CPZP" version="21.6.6" type="device">
+  <diagram name="Page-1" id="zqVxsLdLSNcYjyLQeEx2">
+    <mxGraphModel dx="880" dy="2814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cBDrPNfZ-bh5gWsAwHh1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBDrPNfZ-bh5gWsAwHh1-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="-1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBDrPNfZ-bh5gWsAwHh1-1" value="+------------------+&#xa;                              |   GYMNASIUM     |&#xa;                              +------------------+&#xa;                              | GYM_ID (Primary) |&#xa;                              | Name             |&#xa;                              | Address          |&#xa;                              | Telephone        |&#xa;                              +------------------+&#xa;                                       |&#xa;                                       |&#xa;                                       |&#xa;                                       |&#xa;                                       v&#xa;                              +------------------+&#xa;                              |     MEMBER       |&#xa;                              +------------------+&#xa;                              | MEMBER_ID (PK)   |&#xa;                              | Last Name        |&#xa;                              | First Name       |&#xa;                              | Address          |&#xa;                              | Date of Birth    |&#xa;                              | Gender           |&#xa;                              +------------------+&#xa;                                       |&#xa;                                       |&#xa;                                       |&#xa;                                       |&#xa;                                       v&#xa;                    +-----------------+    +-----------------+&#xa;                    |     SESSION     |    |     COACH       |&#xa;                    +-----------------+    +-----------------+&#xa;                    | SESSION_ID (PK) |    | COACH_ID (PK)   |&#xa;                    | Sport           |    | Last Name       |&#xa;                    | Schedule        |    | First Name      |&#xa;                    | Gymnasium ID (FK)|  --&gt; | Age          |&#xa;                    | Coach 1 ID (FK) |  --&gt; | Specialty     |&#xa;                    | Coach 2 ID (FK) |    +-----------------+&#xa;                    +-----------------+" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-1650" width="390" height="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
